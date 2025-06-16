@@ -22,3 +22,7 @@
 3. The returned data will be displayed in the `advice-text` element with Typewriter effect.
 4. While the data is being fetched and displayed, the button will be disabled.
 5. Once the data is displayed, the button will be enabled again.
+
+### **GitHub Link**
+
+- [Random Advice Generator](https://github.com/FurkanGulabi/random-advice-generator)
