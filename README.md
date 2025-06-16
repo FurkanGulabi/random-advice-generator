@@ -1,24 +1,24 @@
 # **Random Advice Generator**
 
-## **Tech-Stack**
-
-- HTML
-- CSS
-- JavaScript
-
-## **Purpose**
-
-This app fetches a advice from an api based on the datetime.
-
 ### 📁 Project Structure
 
 ```
-├── index.html # Main HTML file
-├── style.css # CSS styling and animations
-├── script.js # JavaScript functionality
-└── README.md # Project documentation
+├── index.html # Main HTML File
+├── style.css # Stylesheet File
+└── script.js # JavaScript File
 ```
 
-## 🌐 API Used
+### 🌐 **Resources**
 
-- **Advice Slip API**: `https://api.adviceslip.com/advice`
+- Advice Slip API: `https://api.adviceslip.com/advice`
+- Button Styling Referance: `https://uiverse.io/buttons`
+- Icons: `https://fontawesome.com/`
+- Color Palette: `https://coolors.co/`
+
+### ⚙️ **How It Works**
+
+1. The user clicks the "Random Advice" button.
+2. `getAdviceFromAPI` function will get the data from api.
+3. The returned data will be displayed in the `advice-text` element with Typewriter effect.
+4. While the data is being fetched and displayed, the button will be disabled.
+5. Once the data is displayed, the button will be enabled again.
