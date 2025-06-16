@@ -1,6 +1,8 @@
 # **Random Advice Generator**
 
-**Important**: This app only works with a live server because the `file://` protocol does not support CORS
+## Important
+
+- **This app only works with a live server because the `file://` protocol does not support API calls**
 
 ### 📁 Project Structure
 
